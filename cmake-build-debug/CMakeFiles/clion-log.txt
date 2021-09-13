@@ -1,0 +1,594 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\cedri\CLionProjects\CG_Labs
+-- The CXX compiler identification is MSVC 19.29.30133.0
+-- The C compiler identification is MSVC 19.29.30133.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.30.1.windows.1") 
+-- Cloning assimpâ€¦
+-- Setting up CMake for assimpâ€¦
+-- Building and installing assimpâ€¦
+Scanning dependencies of target zlib
+[  1%] Building C object contrib/zlib/CMakeFiles/zlib.dir/adler32.obj
+adler32.c
+[  1%] Building C object contrib/zlib/CMakeFiles/zlib.dir/compress.obj
+compress.c
+[  2%] Building C object contrib/zlib/CMakeFiles/zlib.dir/crc32.obj
+crc32.c
+[  2%] Building C object contrib/zlib/CMakeFiles/zlib.dir/deflate.obj
+deflate.c
+[  2%] Building C object contrib/zlib/CMakeFiles/zlib.dir/gzclose.obj
+gzclose.c
+[  3%] Building C object contrib/zlib/CMakeFiles/zlib.dir/gzlib.obj
+gzlib.c
+[  3%] Building C object contrib/zlib/CMakeFiles/zlib.dir/gzread.obj
+gzread.c
+[  4%] Building C object contrib/zlib/CMakeFiles/zlib.dir/gzwrite.obj
+gzwrite.c
+[  4%] Building C object contrib/zlib/CMakeFiles/zlib.dir/inflate.obj
+inflate.c
+[  5%] Building C object contrib/zlib/CMakeFiles/zlib.dir/infback.obj
+infback.c
+[  5%] Building C object contrib/zlib/CMakeFiles/zlib.dir/inftrees.obj
+inftrees.c
+[  5%] Building C object contrib/zlib/CMakeFiles/zlib.dir/inffast.obj
+inffast.c
+[  6%] Building C object contrib/zlib/CMakeFiles/zlib.dir/trees.obj
+trees.c
+[  6%] Building C object contrib/zlib/CMakeFiles/zlib.dir/uncompr.obj
+uncompr.c
+[  7%] Building C object contrib/zlib/CMakeFiles/zlib.dir/zutil.obj
+zutil.c
+[  7%] Building RC object contrib/zlib/CMakeFiles/zlib.dir/win32/zlib1.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[  8%] Linking C shared library zlib.dll
+[  8%] Built target zlib
+[  8%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/adler32.obj
+adler32.c
+[  8%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/compress.obj
+compress.c
+[  9%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/crc32.obj
+crc32.c
+[  9%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/deflate.obj
+deflate.c
+[ 10%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/gzclose.obj
+gzclose.c
+[ 10%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/gzlib.obj
+gzlib.c
+[ 11%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/gzread.obj
+gzread.c
+[ 11%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/gzwrite.obj
+gzwrite.c
+[ 11%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/inflate.obj
+inflate.c
+[ 12%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/infback.obj
+infback.c
+[ 12%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/inftrees.obj
+inftrees.c
+[ 13%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/inffast.obj
+inffast.c
+[ 13%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/trees.obj
+trees.c
+[ 14%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/uncompr.obj
+uncompr.c
+[ 14%] Building C object contrib/zlib/CMakeFiles/zlibstatic.dir/zutil.obj
+zutil.c
+[ 15%] Linking C static library zlibstatic.lib
+[ 15%] Built target zlibstatic
+[ 15%] Building CXX object contrib/irrXML/CMakeFiles/IrrXML.dir/irrXML.cpp.obj
+irrXML.cpp
+[ 15%] Linking CXX static library IrrXML.lib
+[ 15%] Built target IrrXML
+Scanning dependencies of target assimp
+[ 16%] Building CXX object code/CMakeFiles/assimp.dir/Common/Assimp.cpp.obj
+Assimp.cpp
+[ 16%] Building RC object code/CMakeFiles/assimp.dir/res/assimp.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[ 17%] Building CXX object code/CMakeFiles/assimp.dir/CApi/CInterfaceIOWrapper.cpp.obj
+CInterfaceIOWrapper.cpp
+[ 17%] Building CXX object code/CMakeFiles/assimp.dir/Common/BaseImporter.cpp.obj
+BaseImporter.cpp
+[ 18%] Building CXX object code/CMakeFiles/assimp.dir/Common/BaseProcess.cpp.obj
+BaseProcess.cpp
+[ 18%] Building CXX object code/CMakeFiles/assimp.dir/Common/PostStepRegistry.cpp.obj
+PostStepRegistry.cpp
+[ 18%] Building CXX object code/CMakeFiles/assimp.dir/Common/ImporterRegistry.cpp.obj
+ImporterRegistry.cpp
+[ 19%] Building CXX object code/CMakeFiles/assimp.dir/Common/DefaultIOStream.cpp.obj
+DefaultIOStream.cpp
+[ 19%] Building CXX object code/CMakeFiles/assimp.dir/Common/DefaultIOSystem.cpp.obj
+DefaultIOSystem.cpp
+[ 20%] Building CXX object code/CMakeFiles/assimp.dir/Common/ZipArchiveIOSystem.cpp.obj
+ZipArchiveIOSystem.cpp
+[ 20%] Building CXX object code/CMakeFiles/assimp.dir/Common/Importer.cpp.obj
+Importer.cpp
+[ 21%] Building CXX object code/CMakeFiles/assimp.dir/Common/SGSpatialSort.cpp.obj
+SGSpatialSort.cpp
+[ 21%] Building CXX object code/CMakeFiles/assimp.dir/Common/VertexTriangleAdjacency.cpp.obj
+VertexTriangleAdjacency.cpp
+[ 21%] Building CXX object code/CMakeFiles/assimp.dir/Common/SpatialSort.cpp.obj
+SpatialSort.cpp
+[ 22%] Building CXX object code/CMakeFiles/assimp.dir/Common/SceneCombiner.cpp.obj
+SceneCombiner.cpp
+[ 22%] Building CXX object code/CMakeFiles/assimp.dir/Common/ScenePreprocessor.cpp.obj
+ScenePreprocessor.cpp
+[ 23%] Building CXX object code/CMakeFiles/assimp.dir/Common/SkeletonMeshBuilder.cpp.obj
+SkeletonMeshBuilder.cpp
+[ 23%] Building CXX object code/CMakeFiles/assimp.dir/Common/SplitByBoneCountProcess.cpp.obj
+SplitByBoneCountProcess.cpp
+[ 24%] Building CXX object code/CMakeFiles/assimp.dir/Common/StandardShapes.cpp.obj
+StandardShapes.cpp
+[ 24%] Building CXX object code/CMakeFiles/assimp.dir/Common/TargetAnimation.cpp.obj
+TargetAnimation.cpp
+[ 24%] Building CXX object code/CMakeFiles/assimp.dir/Common/RemoveComments.cpp.obj
+RemoveComments.cpp
+[ 25%] Building CXX object code/CMakeFiles/assimp.dir/Common/Subdivision.cpp.obj
+Subdivision.cpp
+[ 25%] Building CXX object code/CMakeFiles/assimp.dir/Common/scene.cpp.obj
+scene.cpp
+[ 26%] Building CXX object code/CMakeFiles/assimp.dir/Common/Bitmap.cpp.obj
+Bitmap.cpp
+[ 26%] Building CXX object code/CMakeFiles/assimp.dir/Common/Version.cpp.obj
+Version.cpp
+[ 27%] Building CXX object code/CMakeFiles/assimp.dir/Common/CreateAnimMesh.cpp.obj
+CreateAnimMesh.cpp
+[ 27%] Building CXX object code/CMakeFiles/assimp.dir/Common/simd.cpp.obj
+simd.cpp
+[ 27%] Building CXX object code/CMakeFiles/assimp.dir/Common/DefaultLogger.cpp.obj
+DefaultLogger.cpp
+[ 28%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/CalcTangentsProcess.cpp.obj
+CalcTangentsProcess.cpp
+[ 28%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/ComputeUVMappingProcess.cpp.obj
+ComputeUVMappingProcess.cpp
+[ 29%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/ConvertToLHProcess.cpp.obj
+ConvertToLHProcess.cpp
+[ 29%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/EmbedTexturesProcess.cpp.obj
+EmbedTexturesProcess.cpp
+[ 30%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/FindDegenerates.cpp.obj
+FindDegenerates.cpp
+[ 30%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/FindInstancesProcess.cpp.obj
+FindInstancesProcess.cpp
+[ 30%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/FindInvalidDataProcess.cpp.obj
+FindInvalidDataProcess.cpp
+[ 31%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/FixNormalsStep.cpp.obj
+FixNormalsStep.cpp
+[ 31%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/DropFaceNormalsProcess.cpp.obj
+DropFaceNormalsProcess.cpp
+[ 32%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/GenFaceNormalsProcess.cpp.obj
+GenFaceNormalsProcess.cpp
+[ 32%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/GenVertexNormalsProcess.cpp.obj
+GenVertexNormalsProcess.cpp
+[ 33%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/PretransformVertices.cpp.obj
+PretransformVertices.cpp
+[ 33%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/ImproveCacheLocality.cpp.obj
+ImproveCacheLocality.cpp
+[ 33%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/JoinVerticesProcess.cpp.obj
+JoinVerticesProcess.cpp
+[ 34%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/LimitBoneWeightsProcess.cpp.obj
+LimitBoneWeightsProcess.cpp
+[ 34%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/RemoveRedundantMaterials.cpp.obj
+RemoveRedundantMaterials.cpp
+[ 35%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/RemoveVCProcess.cpp.obj
+RemoveVCProcess.cpp
+[ 35%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/SortByPTypeProcess.cpp.obj
+SortByPTypeProcess.cpp
+[ 36%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/SplitLargeMeshes.cpp.obj
+SplitLargeMeshes.cpp
+[ 36%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/TextureTransform.cpp.obj
+TextureTransform.cpp
+[ 36%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/TriangulateProcess.cpp.obj
+TriangulateProcess.cpp
+[ 37%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/ValidateDataStructure.cpp.obj
+ValidateDataStructure.cpp
+[ 37%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/OptimizeGraph.cpp.obj
+OptimizeGraph.cpp
+[ 38%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/OptimizeMeshes.cpp.obj
+OptimizeMeshes.cpp
+[ 38%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/DeboneProcess.cpp.obj
+DeboneProcess.cpp
+[ 39%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/ProcessHelper.cpp.obj
+ProcessHelper.cpp
+[ 39%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/MakeVerboseFormat.cpp.obj
+MakeVerboseFormat.cpp
+[ 40%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/ScaleProcess.cpp.obj
+ScaleProcess.cpp
+[ 40%] Building CXX object code/CMakeFiles/assimp.dir/PostProcessing/GenBoundingBoxesProcess.cpp.obj
+GenBoundingBoxesProcess.cpp
+[ 40%] Building CXX object code/CMakeFiles/assimp.dir/Material/MaterialSystem.cpp.obj
+MaterialSystem.cpp
+[ 41%] Building CXX object code/CMakeFiles/assimp.dir/Importer/STEPParser/STEPFileReader.cpp.obj
+STEPFileReader.cpp
+[ 41%] Building CXX object code/CMakeFiles/assimp.dir/Importer/STEPParser/STEPFileEncoding.cpp.obj
+STEPFileEncoding.cpp
+[ 42%] Building CXX object code/CMakeFiles/assimp.dir/AMF/AMFImporter.cpp.obj
+AMFImporter.cpp
+[ 42%] Building CXX object code/CMakeFiles/assimp.dir/AMF/AMFImporter_Geometry.cpp.obj
+AMFImporter_Geometry.cpp
+[ 43%] Building CXX object code/CMakeFiles/assimp.dir/AMF/AMFImporter_Material.cpp.obj
+AMFImporter_Material.cpp
+[ 43%] Building CXX object code/CMakeFiles/assimp.dir/AMF/AMFImporter_Postprocess.cpp.obj
+AMFImporter_Postprocess.cpp
+[ 43%] Building CXX object code/CMakeFiles/assimp.dir/3DS/3DSConverter.cpp.obj
+3DSConverter.cpp
+[ 44%] Building CXX object code/CMakeFiles/assimp.dir/3DS/3DSLoader.cpp.obj
+3DSLoader.cpp
+[ 44%] Building CXX object code/CMakeFiles/assimp.dir/AC/ACLoader.cpp.obj
+ACLoader.cpp
+[ 45%] Building CXX object code/CMakeFiles/assimp.dir/ASE/ASELoader.cpp.obj
+ASELoader.cpp
+[ 45%] Building CXX object code/CMakeFiles/assimp.dir/ASE/ASEParser.cpp.obj
+ASEParser.cpp
+[ 46%] Building CXX object code/CMakeFiles/assimp.dir/Assbin/AssbinLoader.cpp.obj
+AssbinLoader.cpp
+[ 46%] Building CXX object code/CMakeFiles/assimp.dir/B3D/B3DImporter.cpp.obj
+B3DImporter.cpp
+[ 46%] Building CXX object code/CMakeFiles/assimp.dir/BVH/BVHLoader.cpp.obj
+BVHLoader.cpp
+[ 47%] Building CXX object code/CMakeFiles/assimp.dir/Collada/ColladaLoader.cpp.obj
+ColladaLoader.cpp
+[ 47%] Building CXX object code/CMakeFiles/assimp.dir/Collada/ColladaParser.cpp.obj
+ColladaParser.cpp
+[ 48%] Building CXX object code/CMakeFiles/assimp.dir/DXF/DXFLoader.cpp.obj
+DXFLoader.cpp
+[ 48%] Building CXX object code/CMakeFiles/assimp.dir/CSM/CSMLoader.cpp.obj
+CSMLoader.cpp
+[ 49%] Building CXX object code/CMakeFiles/assimp.dir/HMP/HMPLoader.cpp.obj
+HMPLoader.cpp
+[ 49%] Building CXX object code/CMakeFiles/assimp.dir/Irr/IRRMeshLoader.cpp.obj
+IRRMeshLoader.cpp
+[ 49%] Building CXX object code/CMakeFiles/assimp.dir/Irr/IRRShared.cpp.obj
+IRRShared.cpp
+[ 50%] Building CXX object code/CMakeFiles/assimp.dir/Irr/IRRLoader.cpp.obj
+IRRLoader.cpp
+[ 50%] Building CXX object code/CMakeFiles/assimp.dir/LWO/LWOAnimation.cpp.obj
+LWOAnimation.cpp
+[ 51%] Building CXX object code/CMakeFiles/assimp.dir/LWO/LWOBLoader.cpp.obj
+LWOBLoader.cpp
+[ 51%] Building CXX object code/CMakeFiles/assimp.dir/LWO/LWOLoader.cpp.obj
+LWOLoader.cpp
+[ 52%] Building CXX object code/CMakeFiles/assimp.dir/LWO/LWOMaterial.cpp.obj
+LWOMaterial.cpp
+[ 52%] Building CXX object code/CMakeFiles/assimp.dir/LWS/LWSLoader.cpp.obj
+LWSLoader.cpp
+[ 52%] Building CXX object code/CMakeFiles/assimp.dir/MD2/MD2Loader.cpp.obj
+MD2Loader.cpp
+[ 53%] Building CXX object code/CMakeFiles/assimp.dir/MD3/MD3Loader.cpp.obj
+MD3Loader.cpp
+[ 53%] Building CXX object code/CMakeFiles/assimp.dir/MD5/MD5Loader.cpp.obj
+MD5Loader.cpp
+[ 54%] Building CXX object code/CMakeFiles/assimp.dir/MD5/MD5Parser.cpp.obj
+MD5Parser.cpp
+[ 54%] Building CXX object code/CMakeFiles/assimp.dir/MDC/MDCLoader.cpp.obj
+MDCLoader.cpp
+[ 55%] Building CXX object code/CMakeFiles/assimp.dir/MDL/MDLLoader.cpp.obj
+MDLLoader.cpp
+[ 55%] Building CXX object code/CMakeFiles/assimp.dir/MDL/MDLMaterialLoader.cpp.obj
+MDLMaterialLoader.cpp
+[ 55%] Building CXX object code/CMakeFiles/assimp.dir/NFF/NFFLoader.cpp.obj
+NFFLoader.cpp
+[ 56%] Building CXX object code/CMakeFiles/assimp.dir/NDO/NDOLoader.cpp.obj
+NDOLoader.cpp
+[ 56%] Building CXX object code/CMakeFiles/assimp.dir/OFF/OFFLoader.cpp.obj
+OFFLoader.cpp
+[ 57%] Building CXX object code/CMakeFiles/assimp.dir/Obj/ObjFileImporter.cpp.obj
+ObjFileImporter.cpp
+[ 57%] Building CXX object code/CMakeFiles/assimp.dir/Obj/ObjFileMtlImporter.cpp.obj
+ObjFileMtlImporter.cpp
+[ 58%] Building CXX object code/CMakeFiles/assimp.dir/Obj/ObjFileParser.cpp.obj
+ObjFileParser.cpp
+[ 58%] Building CXX object code/CMakeFiles/assimp.dir/Ogre/OgreImporter.cpp.obj
+OgreImporter.cpp
+[ 58%] Building CXX object code/CMakeFiles/assimp.dir/Ogre/OgreStructs.cpp.obj
+OgreStructs.cpp
+[ 59%] Building CXX object code/CMakeFiles/assimp.dir/Ogre/OgreBinarySerializer.cpp.obj
+OgreBinarySerializer.cpp
+[ 59%] Building CXX object code/CMakeFiles/assimp.dir/Ogre/OgreXmlSerializer.cpp.obj
+OgreXmlSerializer.cpp
+[ 60%] Building CXX object code/CMakeFiles/assimp.dir/Ogre/OgreMaterial.cpp.obj
+OgreMaterial.cpp
+[ 60%] Building CXX object code/CMakeFiles/assimp.dir/OpenGEX/OpenGEXImporter.cpp.obj
+OpenGEXImporter.cpp
+[ 61%] Building CXX object code/CMakeFiles/assimp.dir/Ply/PlyLoader.cpp.obj
+PlyLoader.cpp
+[ 61%] Building CXX object code/CMakeFiles/assimp.dir/Ply/PlyParser.cpp.obj
+PlyParser.cpp
+[ 61%] Building CXX object code/CMakeFiles/assimp.dir/MS3D/MS3DLoader.cpp.obj
+MS3DLoader.cpp
+[ 62%] Building CXX object code/CMakeFiles/assimp.dir/COB/COBLoader.cpp.obj
+COBLoader.cpp
+[ 62%] Building CXX object code/CMakeFiles/assimp.dir/Blender/BlenderLoader.cpp.obj
+BlenderLoader.cpp
+[ 63%] Building CXX object code/CMakeFiles/assimp.dir/Blender/BlenderDNA.cpp.obj
+BlenderDNA.cpp
+[ 63%] Building CXX object code/CMakeFiles/assimp.dir/Blender/BlenderScene.cpp.obj
+BlenderScene.cpp
+[ 64%] Building CXX object code/CMakeFiles/assimp.dir/Blender/BlenderModifier.cpp.obj
+BlenderModifier.cpp
+[ 64%] Building CXX object code/CMakeFiles/assimp.dir/Blender/BlenderBMesh.cpp.obj
+BlenderBMesh.cpp
+[ 65%] Building CXX object code/CMakeFiles/assimp.dir/Blender/BlenderTessellator.cpp.obj
+BlenderTessellator.cpp
+[ 65%] Building CXX object code/CMakeFiles/assimp.dir/Blender/BlenderCustomData.cpp.obj
+BlenderCustomData.cpp
+[ 65%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCLoader.cpp.obj
+IFCLoader.cpp
+[ 66%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCReaderGen1_2x3.cpp.obj
+IFCReaderGen1_2x3.cpp
+[ 66%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCReaderGen2_2x3.cpp.obj
+IFCReaderGen2_2x3.cpp
+[ 67%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCUtil.cpp.obj
+IFCUtil.cpp
+[ 67%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCGeometry.cpp.obj
+IFCGeometry.cpp
+[ 68%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCMaterial.cpp.obj
+IFCMaterial.cpp
+[ 68%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCProfile.cpp.obj
+IFCProfile.cpp
+[ 68%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCCurve.cpp.obj
+IFCCurve.cpp
+[ 69%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCBoolean.cpp.obj
+IFCBoolean.cpp
+[ 69%] Building CXX object code/CMakeFiles/assimp.dir/Importer/IFC/IFCOpenings.cpp.obj
+IFCOpenings.cpp
+[ 70%] Building CXX object code/CMakeFiles/assimp.dir/XGL/XGLLoader.cpp.obj
+XGLLoader.cpp
+[ 70%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXImporter.cpp.obj
+FBXImporter.cpp
+[ 71%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXParser.cpp.obj
+FBXParser.cpp
+[ 71%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXTokenizer.cpp.obj
+FBXTokenizer.cpp
+[ 71%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXConverter.cpp.obj
+FBXConverter.cpp
+[ 72%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXUtil.cpp.obj
+FBXUtil.cpp
+[ 72%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXDocument.cpp.obj
+FBXDocument.cpp
+[ 73%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXProperties.cpp.obj
+FBXProperties.cpp
+[ 73%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXMeshGeometry.cpp.obj
+FBXMeshGeometry.cpp
+[ 74%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXMaterial.cpp.obj
+FBXMaterial.cpp
+[ 74%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXModel.cpp.obj
+FBXModel.cpp
+[ 74%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXAnimation.cpp.obj
+FBXAnimation.cpp
+[ 75%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXNodeAttribute.cpp.obj
+FBXNodeAttribute.cpp
+[ 75%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXDeformer.cpp.obj
+FBXDeformer.cpp
+[ 76%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXBinaryTokenizer.cpp.obj
+FBXBinaryTokenizer.cpp
+[ 76%] Building CXX object code/CMakeFiles/assimp.dir/FBX/FBXDocumentUtil.cpp.obj
+FBXDocumentUtil.cpp
+[ 77%] Building CXX object code/CMakeFiles/assimp.dir/Q3D/Q3DLoader.cpp.obj
+Q3DLoader.cpp
+[ 77%] Building CXX object code/CMakeFiles/assimp.dir/Q3BSP/Q3BSPFileParser.cpp.obj
+Q3BSPFileParser.cpp
+[ 77%] Building CXX object code/CMakeFiles/assimp.dir/Q3BSP/Q3BSPFileImporter.cpp.obj
+Q3BSPFileImporter.cpp
+[ 78%] Building CXX object code/CMakeFiles/assimp.dir/Raw/RawLoader.cpp.obj
+RawLoader.cpp
+[ 78%] Building CXX object code/CMakeFiles/assimp.dir/SIB/SIBImporter.cpp.obj
+SIBImporter.cpp
+[ 79%] Building CXX object code/CMakeFiles/assimp.dir/SMD/SMDLoader.cpp.obj
+SMDLoader.cpp
+[ 79%] Building CXX object code/CMakeFiles/assimp.dir/STL/STLLoader.cpp.obj
+STLLoader.cpp
+[ 80%] Building CXX object code/CMakeFiles/assimp.dir/Terragen/TerragenLoader.cpp.obj
+TerragenLoader.cpp
+[ 80%] Building CXX object code/CMakeFiles/assimp.dir/Unreal/UnrealLoader.cpp.obj
+UnrealLoader.cpp
+[ 80%] Building CXX object code/CMakeFiles/assimp.dir/X/XFileImporter.cpp.obj
+XFileImporter.cpp
+[ 81%] Building CXX object code/CMakeFiles/assimp.dir/X/XFileParser.cpp.obj
+XFileParser.cpp
+[ 81%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter.cpp.obj
+X3DImporter.cpp
+[ 82%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Geometry2D.cpp.obj
+X3DImporter_Geometry2D.cpp
+[ 82%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Geometry3D.cpp.obj
+X3DImporter_Geometry3D.cpp
+[ 83%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Group.cpp.obj
+X3DImporter_Group.cpp
+[ 83%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Light.cpp.obj
+X3DImporter_Light.cpp
+[ 83%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Metadata.cpp.obj
+X3DImporter_Metadata.cpp
+[ 84%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Networking.cpp.obj
+X3DImporter_Networking.cpp
+[ 84%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Postprocess.cpp.obj
+X3DImporter_Postprocess.cpp
+[ 85%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Rendering.cpp.obj
+X3DImporter_Rendering.cpp
+[ 85%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Shape.cpp.obj
+X3DImporter_Shape.cpp
+[ 86%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DImporter_Texturing.cpp.obj
+X3DImporter_Texturing.cpp
+[ 86%] Building CXX object code/CMakeFiles/assimp.dir/X3D/FIReader.cpp.obj
+FIReader.cpp
+[ 86%] Building CXX object code/CMakeFiles/assimp.dir/X3D/X3DVocabulary.cpp.obj
+X3DVocabulary.cpp
+[ 87%] Building CXX object code/CMakeFiles/assimp.dir/glTF/glTFCommon.cpp.obj
+glTFCommon.cpp
+[ 87%] Building CXX object code/CMakeFiles/assimp.dir/glTF/glTFImporter.cpp.obj
+glTFImporter.cpp
+[ 88%] Building CXX object code/CMakeFiles/assimp.dir/glTF2/glTF2Importer.cpp.obj
+glTF2Importer.cpp
+[ 88%] Building CXX object code/CMakeFiles/assimp.dir/3MF/D3MFImporter.cpp.obj
+D3MFImporter.cpp
+[ 89%] Building CXX object code/CMakeFiles/assimp.dir/3MF/D3MFOpcPackage.cpp.obj
+D3MFOpcPackage.cpp
+[ 89%] Building CXX object code/CMakeFiles/assimp.dir/MMD/MMDImporter.cpp.obj
+MMDImporter.cpp
+[ 90%] Building CXX object code/CMakeFiles/assimp.dir/MMD/MMDPmxParser.cpp.obj
+MMDPmxParser.cpp
+[ 90%] Building CXX object code/CMakeFiles/assimp.dir/Importer/StepFile/StepFileImporter.cpp.obj
+StepFileImporter.cpp
+[ 90%] Building CXX object code/CMakeFiles/assimp.dir/Importer/StepFile/StepFileGen1.cpp.obj
+StepFileGen1.cpp
+[ 91%] Building CXX object code/CMakeFiles/assimp.dir/Importer/StepFile/StepFileGen2.cpp.obj
+StepFileGen2.cpp
+[ 91%] Building CXX object code/CMakeFiles/assimp.dir/Importer/StepFile/StepFileGen3.cpp.obj
+StepFileGen3.cpp
+[ 92%] Building C object code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj
+ioapi.c
+[ 92%] Building C object code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj
+unzip.c
+[ 93%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj
+shapes.cc
+[ 93%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj
+advancing_front.cc
+[ 93%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj
+cdt.cc
+[ 94%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj
+sweep.cc
+[ 94%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj
+sweep_context.cc
+[ 95%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj
+clipper.cpp
+[ 95%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/OpenDDLParser.cpp.obj
+OpenDDLParser.cpp
+[ 96%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/DDLNode.cpp.obj
+DDLNode.cpp
+[ 96%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/OpenDDLCommon.cpp.obj
+OpenDDLCommon.cpp
+[ 96%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/OpenDDLExport.cpp.obj
+OpenDDLExport.cpp
+[ 97%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/Value.cpp.obj
+Value.cpp
+[ 97%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/openddlparser/code/OpenDDLStream.cpp.obj
+OpenDDLStream.cpp
+[ 98%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcArithmeticCodec.cpp.obj
+o3dgcArithmeticCodec.cpp
+[ 98%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcDynamicVectorDecoder.cpp.obj
+o3dgcDynamicVectorDecoder.cpp
+[ 99%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcDynamicVectorEncoder.cpp.obj
+o3dgcDynamicVectorEncoder.cpp
+[ 99%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcTools.cpp.obj
+o3dgcTools.cpp
+[ 99%] Building CXX object code/CMakeFiles/assimp.dir/__/contrib/Open3DGC/o3dgcTriangleFans.cpp.obj
+o3dgcTriangleFans.cpp
+[100%] Building C object code/CMakeFiles/assimp.dir/__/contrib/zip/src/zip.c.obj
+zip.c
+[100%] Linking CXX shared library assimp-vc142-mt.dll
+[100%] Built target assimp
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/lib/cmake/assimp-5.0/assimp-config.cmake
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/lib/cmake/assimp-5.0/assimp-config-version.cmake
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/lib/cmake/assimp-5.0/assimpTargets.cmake
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/lib/cmake/assimp-5.0/assimpTargets-release.cmake
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/lib/pkgconfig/assimp.pc
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/lib/zlibstatic.lib
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/lib/IrrXML.lib
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/lib/assimp-vc142-mt.lib
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/bin/assimp-vc142-mt.dll
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/anim.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/aabb.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/ai_assert.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/camera.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/color4.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/color4.inl
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/config.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/defs.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Defines.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/cfileio.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/light.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/material.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/material.inl
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/matrix3x3.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/matrix3x3.inl
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/matrix4x4.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/matrix4x4.inl
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/mesh.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/pbrmaterial.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/postprocess.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/quaternion.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/quaternion.inl
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/scene.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/metadata.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/texture.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/types.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/vector2.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/vector2.inl
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/vector3.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/vector3.inl
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/version.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/cimport.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/importerdesc.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Importer.hpp
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/DefaultLogger.hpp
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/ProgressHandler.hpp
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/IOStream.hpp
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/IOSystem.hpp
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Logger.hpp
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/LogStream.hpp
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/NullLogger.hpp
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/cexport.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Exporter.hpp
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/DefaultIOStream.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/DefaultIOSystem.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/ZipArchiveIOSystem.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/SceneCombiner.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/fast_atof.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/qnan.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/BaseImporter.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Hash.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/MemoryIOWrapper.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/ParsingUtils.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/StreamReader.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/StreamWriter.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/StringComparison.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/StringUtils.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/SGSpatialSort.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/GenericProperty.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/SpatialSort.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/SkeletonMeshBuilder.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/SmoothingGroups.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/SmoothingGroups.inl
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/StandardShapes.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/RemoveComments.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Subdivision.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Vertex.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/LineSplitter.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/TinyFormatter.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Profiler.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/LogAux.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Bitmap.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/XMLTools.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/IOStreamBuffer.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/CreateAnimMesh.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/irrXMLWrapper.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/BlobIOSystem.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/MathFunctions.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Macros.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Exceptional.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/ByteSwapper.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Compiler/pushpack1.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Compiler/poppack1.h
+-- Installing: C:/Users/cedri/CLionProjects/CG_Labs/dependencies/assimp-install/include/assimp/Compiler/pstdint.h
+-- Cloning glfwâ€¦
+-- Setting up CMake for glfwâ€¦
+-- Building and installing glfwâ€¦
+-- Cloning glmâ€¦
+-- Setting up CMake for glmâ€¦
+-- Building and installing glmâ€¦
+-- Cloning tinyfiledialogsâ€¦
+-- Cloning stbâ€¦
+-- Downloading resource archiveâ€¦
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/cedri/CLionProjects/CG_Labs/cmake-build-debug

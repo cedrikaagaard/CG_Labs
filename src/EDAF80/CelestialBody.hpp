@@ -46,7 +46,7 @@ public:
 	//!             of this celestial body
 	//! @return Matrix transforming from this celestial body’s local space
 	//!         to world space
-	glm::mat4 render(std::chrono::microseconds elapsed_time,
+    glm::mat4 render(std::chrono::microseconds elapsed_time,
 	                 glm::mat4 const& view_projection,
 	                 glm::mat4 const& parent_transform = glm::mat4(1.0f),
 	                 bool show_basis = false);
